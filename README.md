@@ -11,7 +11,7 @@ the subject matter here, the scopus, the main question that guide whole discusst
 - what about the role of compilers/interpreters?
 - how much a certain language could avoid ambiguity?
 - if it is possible to have ambiguity, then how the compilers/interpreters deal with these vagueness?
-issues like these catch my attention; because they represent another part of my interests: *philosophy of language*. like what we seek in [Classical Logic] (https://plato.stanford.edu/archives/fall2022/entries/logic-classical/) and [Logical/artificial languages vs. natural languages] (https://plato.stanford.edu/entries/logic-ai/#nl). 
+issues like these catch my attention; because they represent another part of my interests: *philosophy of language*. like what we seek in [Classical Logic](https://plato.stanford.edu/archives/fall2022/entries/logic-classical/) and [Logical/artificial languages vs. natural languages](https://plato.stanford.edu/entries/logic-ai/#nl). 
 the way this days people deal with these topics could be describe as *inappropriate*, as a matter of opinion; since, if one search for any kind programming language the likelihood that she/he could find reviews of these matters is very low to zero. 
 
 ## The Name
