@@ -1,6 +1,7 @@
 # Corpus Codes
 A few words on anything which code be written in codes, i.e., any kind of *meaning* that could be shaped in terms of well-designed, syntaticly true depends on pre-existed rules, in a way it could carry a meaningful statement either for huamn or machine. one may asked:
 > why these esplanation is important? why do not just say a few words of developing?
+
 the answer would be: ***no***. because the target is not just to build applications with good performance and clean codes, but more than that.
 
 ## What is the **scopus**?
