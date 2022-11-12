@@ -1,13 +1,13 @@
 # Corpus Codes
 
-A few words on anything which code be written in codes, i.e., any kind of *meaning* that could be shaped in terms of well-designed, syntaticly true depends on pre-existed rules, in a way it could carry a meaningful statement either for huamn or machine. one may asked:
-> why these esplanation is important? why do not just say a few words of developing?
+A few words on anything which code be written in codes, i.e., any kind of *meaning* that could be shaped in terms of well-designed, syntactically true depends on pre-existed rules, in a way it could carry a meaningful statement either for human or machine. one may asked:
+> why these explanations is important? why do not just say a few words of developing?
 
 the answer would be: ***no***. because the target is not just to build applications with good performance and clean codes, but more than that.
 
 ## What is the **scopus**?
 
-the subject matter here, the scopus, the main question that guide whole discusstion is a question that possibly divided into more specific questions, such as:
+the subject matter here, the scopus, the main question that guide whole discussion is a question that possibly divided into more specific questions, such as:
 
 - how the programming languages are shaped?
 - could we see all programming languages *well-structured*, *unique readable*?
@@ -20,4 +20,4 @@ the way this days people deal with these topics could be describe as *inappropri
 
 ## The Name
 
-I borrowed the name from Latin which could be a little perplexing, but let us understand in a way that we understand the **Corpus Aristotelicum** or **Corpus Galenicum** or **Corpus Hippocraticum**, all in meaning of ***the whole ordered writings***. in Latin, *corpus* means *body*, *a set which make the body of something*; thus, mentioned terms means the *body* of those philosophers' works. furthermore, *code*, or *codex*, basicaly means *tree trunk* or a certain kind of it, which they wax leafs made out of them to be used for writing. enough for etymology. we obtained codes from this meaning, any set of letters with a correct syntax and semantic on something, no matter it is a even stone, leaf, papyrus, parchment, modern paper, on a storage or screen.
+I borrowed the name from Latin which could be a little perplexing, but let us understand in a way that we understand the **Corpus Aristotelicum** or **Corpus Galenicum** or **Corpus Hippocraticum**, all in meaning of ***the whole ordered writings***. in Latin, *corpus* means *body*, *a set which make the body of something*; thus, mentioned terms means the *body* of those philosophers' works. furthermore, *code*, or *codex*, basically means *tree trunk* or a certain kind of it, which they wax leafs made out of them to be used for writing. enough for etymology. we obtained codes from this meaning, any set of letters with a correct syntax and semantic on something, no matter it is a even stone, leaf, papyrus, parchment, modern paper, on a storage or screen.
