@@ -10,7 +10,7 @@ the answer would be: ***no***. because the target is not just to build applicati
 the subject matter here, the scopus, the main question that guide whole discusstion is a question that possibly divided into more specific questions, such as:
 
 - how the programming languages are shaped?
-- could we see all programming languages *well-structred*, *unique readable*?
+- could we see all programming languages *well-structured*, *unique readable*?
 - what about the role of compilers/interpreters?
 - how much a certain language could avoid ambiguity?
 - if it is possible to have ambiguity, then how the compilers/interpreters deal with these vagueness?
