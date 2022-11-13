@@ -8,44 +8,57 @@ body {
   color: black;
   border-radius: 15px;
   border: 1px solid #ccc;
+  line-height: 2em;
+  
 }
 
 header {
   text-align: center;
-  margin: 5px;
+  margin: 15px 5px;
   padding: 5px;
   border-radius: 15px;
   border: 1px solid #f2f2f2;
 }
 nav {
   display: block;
-  margin: 10px;
-  padding: 5px;
+  margin: 15px 5px;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  align-items:center;
+  
+
 }
+.menu_item {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
 h1 {
   font-family: "RedHatDisplay";
   font-weight: 900;
   font-style: normal;
   font-size: 2em;
-  margin: 5px;
+  margin: 15px 10px;
   padding: 5px;
   text-align: center;
 }
 h2 {
   font-family: "RedHatDisplay";
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
   font-size: 1.75em;
-  margin: 5px;
+  margin: 10px 5px;
   padding: 5px;
   text-align: left;
 }
 h3 {
   font-family: "RedHatDisplay";
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
   font-size: 1.5em;
-  margin: 5px;
+  margin: 10px 5px;
   padding: 5px;
   text-align: left;
 }
@@ -81,7 +94,8 @@ p {
   font-weight: 500;
   font-style: normal;
   font-size: 1em;
-  text-align: left;
+  text-align: justify;
+  
 }
 a {
   font-family: "RedHatMono";
@@ -99,15 +113,14 @@ blockquote > p {
   font-size: 1em;
   text-align: left;
 }
-.menu_item {
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  background-color: whitesmoke;
-}
+
 footer {
+    margin: 15px 5px;
+    padding: 10px;
   text-align: center;
   align-items: center;
+  background-color: #dcdcdc;
+  border-radius: 15px;
 }
 code {
   font-family: "RedHatMono";
