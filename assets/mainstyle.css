@@ -38,7 +38,7 @@ h2 {
   font-size: 1.75em;
   margin: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 h3 {
   font-family: "RedHatDisplay";
@@ -47,7 +47,7 @@ h3 {
   font-size: 1.5em;
   margin: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 h4 {
   font-family: "RedHatDisplay";
@@ -56,7 +56,7 @@ h4 {
   font-size: 1.25em;
   margin: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 h5 {
   font-family: "RedHatDisplay";
@@ -65,7 +65,7 @@ h5 {
   font-size: 1.125em;
   margin: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 h6 {
   font-family: "RedHatDisplay";
@@ -74,7 +74,7 @@ h6 {
   font-size: 1em;
   margin: 5px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 p {
   font-family: "RedHatText";
