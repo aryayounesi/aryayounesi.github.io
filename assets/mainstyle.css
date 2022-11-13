@@ -6,8 +6,17 @@ body {
     font-size: 16px;
     margin: 3%;
     padding: 2%;
+    background-color: #fefefe;
+    color: black;
 }
 
+header {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #F2F2F2;
+}
 h1 {
     font-family: 'RedHatDisplay';
     font-weight: 900;
