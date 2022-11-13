@@ -78,17 +78,17 @@ h6 {
 }
 p {
   font-family: "RedHatText";
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   font-size: 1em;
-  text-align: right;
+  text-align: left;
 }
 a {
     font-family: "RedHatMono";
   font-weight: 500;
   font-size: 1em;
   font-style: normal;
-  text-align: right;
+  text-align: left;
   text-decoration: none;
   color:black;
 }
