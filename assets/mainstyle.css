@@ -92,7 +92,7 @@ a {
   text-decoration: none;
   color: black;
 }
-blockquote {
+blockquote > p {
   font-family: "RedHatText";
   font-weight: 400;
   font-style: italic;

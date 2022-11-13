@@ -12,135 +12,214 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     <meta name="generator" content="ReText 7.2.2">
     <title>Prolegomenon to Merits and Squalor of Lightweight Markup Languages</title>
-   
+
 </head>
 
 <body>
-    <h1>Prolegomenon to Merits and Squalor of Lightweight Markup Languages</h1>
-    <p>Any writing system, far from the media carry it, needs a system for formatting; Even in antiquity and middle ages
-        copiers and writers used methods for formatting the written text; Therefore, in codices we can see using red
-        ink, underlining, using bigger or smaller pens and a few symbols. In modern time, after IT explosion we tried a
-        couple of systems of markup languages to formatting texts. For this goal modern human invent a lot of markups
-        with their rules, tools and file extensions. Among this artifacts two umbrella concepts are important:
-        <strong>Markup languages</strong>, and <strong>word processors</strong>. No need to mention that these concepts
-        could be seen as two sides of a coin, since word processors rely on markup systems. Thus, word processors are
-        dispensable, in the way that, theoretically speaking, only after choosing a markup language one could choose a
-        word processor; although, in reality sometimes the word processor impose its own markup.
-        I can guess some reader might find discussing <em>markup languages</em> in details unnecessary and
-        <em>pedantic</em>; because it may seems a shallow and skin-deep, but it is not. Sometimes the word processor or
-        the markup language interfere with writer's <strong>thinking</strong>, a fragile human phenomenon, and cause
-        interruptions in the process. Thinking, at its core, is fragile, liquid and fugitive; one small event demolish
-        our thoughts, in such a way that the thinker agent would not be able to retrieve it. Does not it important?
-        Additionally, there is no account for have a lot of formatting options whose role are dispensable usually.
-        However, I should be more precise in these points, hence let me define a handful terms.
-        In the meantime, giving easy-to-remember, verbose definition would not be a bad idea as sometimes nonsense
-        explanations are flying over the web. A few month ago I saw a post for <em>"why HTML is not a programming
-            language?"</em> with six reasons to prove it! when <code>HTML</code> had been a <em>programming
-            language</em>? it has never been. Because always it was a markup language which the acronym comes from
-        <strong>HyperText Markup Language</strong> in which "markup" stated, while people may forget.</p>
-    <h2>Markup Languages, Lightweight Markups and WYSIWYG</h2>
-    <p>Defining <strong>Markup</strong>, <strong>Lightweight Markup</strong> and <strong>WYSIWYG</strong> (What You See
-        Is What You Get) make the question in hand clear enough to proceed. as the audience of this words is public
-        opinion, I will avoid academic jargon, committing to more understandable style. Thus my favorite definition of
-        these terms are these:</p>
-    <ol>
-        <li><strong>Markup Language</strong>: a markup language is a system of rules (perhaps codes and tags) that shape
-            the layout of the document, format the texts and words, and make it more readable by human agents. These
-            goals fulfills mostly by wrapping text inside the width of the screen, differentiate parts of texts by
-            different font typeface, outstanding titles and their levels by bigger letter and boldness, put emphasize on
-            words and phrases by <strong>boldness</strong>, <em>italicizing</em>, underlining and different colors.
-            Markup languages are used mostly in opposition to raw text document formats, or structured-data format
-            languages, etc. A raw text, like a piece of document in <code>.txt</code> file is not a markup, as all parts
-            are in one size, no boldness, no italicization and no wrapping; therefore, if you open the file in a text
-            editor a line with 300 words remain in one single line, so that you have to use horizontal scroll bar to see
-            the left. Or in structured-data format documents reading the data, even when they are just regular
-            expressions, is not easy.</li>
-        <li><strong>Lightweight Markup Languages</strong>: a lightweight markup language is a markup language with
-            simplest, unobtrusive, the least rules and tags as much as possible, i.e. the simplest and smallest number
-            of rules and tags that are enough for a regular text to be readable with ease by humans. As human
-            expressions carry meaning in different ways, a markup language have to give possibilities to all kinds; note
-            it worthy that <strong>emphasis</strong> is <em>meaningful</em> in statements and plays a role. Hence,
-            markups have to include at least one option for emphasizing. In addition, in case of any
-            <em>distraction</em>, a markup language must offer rules and possibilities to help the readers focus on the
-            text and help them to find the line or word they are looking for. A markup language that provides these
-            possibilities, with a few others, is lightweight markup language. Lightweight markups used in contrast to
-            common markups, i.e. there is not counter-parts like "heavyweight". Common markups which are not lightweight
-            are for more technical purposes like scientific papers which need charts, different direction writings,
-            complicated table, etc; When a certain document needs more complicated formats, objects and styles a
-            lightweight markup would not be helpful. Thus we always need markup languages like <code>.tex</code>
-            (LaTex), <code>.odt</code> (Open Document), <code>.xml</code> (eXtensible Markup Language),
-            <code>.docx</code> (MS Word), <code>.pages</code> (Mac Pages), etc. to fulfill these tasks.</li>
-        <li><strong>WYSIWYG</strong>: this term, which is acronym for "<em><strong>W</strong>hat <strong>Y</strong>ou
-                <strong>G</strong>et <strong>I</strong>S <strong>W</strong>hat <strong>Y</strong>ou
-                <strong>S</strong>ee</em>" is not a markup per se, but it describes a software that gets users commands
-            in graphical user input instead of gets user orders in terms of written tags (or codes). Putting WYSIWYG
-            next to markup definitions makes the list heterogeneous, and I am aware of that. The reason is a number of
-            markup languages like Microsoft <code>DOCX</code> (or previous <code>DOC</code> version), or Mac
-            <code>PAGES</code> are known with their word processor which produces them in WYSIWYG way; as far as they
-            are closed and propriety formats we could take the processor in place of the format. This issue discussed
-            below more.</li>
-    </ol>
-    <p>Here I did not deal with markup languages such as <code>epub</code>, <code>pdf</code>, <code>djvu</code>, etc.
-        Because the issue for this discussion is the formats that used by writers at first place, while EPUB, PDF, DJVU
-        are not used in the first place, but rather, after the document prepared then it convert to these systems for
-        distribution among readers.</p>
-    <h2>Lightweight Markups Versus WYSIWYGs</h2>
-    <p>As it mentioned above, Markup languages and WYSIWYG word processors are not in the same kind, so that listing
-        them together is not correct technically; one reason stated above: they are known their markup language which
-        are not open source. Therefore, only the same processor could create it. But there is another important reason
-        to comparing lightweight markups with WYSIWYGs: <strong>Lightweight markup languages are ceded and overcome by
-            WYSIWYGs; That is, people prefer markup languages such as <code>docx</code> or <code>odt</code> due to they
-            could be created by a WYSIWYG word processor.</strong> as far as we want to deal with lightweight markups,
-        not doing a kind of Aristotelian classification, such an attitude serve the purpose well.</p>
-    <h2>The Advent of WYSIWYGs</h2>
-    <p>As <strong>WYSIWYG</strong> (What You <strong>See</strong> Is What You Get) word processors conquered the 21st
-        century, one might wonder why should we use a lightweight markup language, or any other markup language that
-        whose formatting needs to be write down, instead of using mouse and toolbars; it is a smart question which may
-        guide us to somewhere good. For common people, who are not familiar with many different alternatives to those
-        WYSIWYGs, this question answered simply and naively by expressing phrases like:</p>
-    <blockquote>
-        <p>There is no good in using something like boring lightweight markups when we have MS Word, Google Docs and
-            even in open source community LibreOffice, Abiword and Calligra.</p>
-    </blockquote>
-    <p>I emphasized the word "see" in the phrase, because that word might be the key to understand the situation. Most
-        of the time, people who are not in favor of lightweight markups, find lightweight markups difficult to deal with
-        or learn or just seem weird to them. <code>Markdown</code>, <code>Commonmark</code>, other
-        Markdowns(<code>Github flavored</code>, <code>Extra</code>, <code>R</code>, etc), <code>Textile</code>,
-        <code>Restructuredtext</code>, <code>Gemtext</code>, <code>RDoc</code>, <code>Asciidoc</code>, a couple of other
-        formats, and most recently <code>Jdot</code> are in a line when it comes to this specific question. When we,
-        people who prefer lightweight markups over, let say, MS Word format, <code>.docx</code>, it might be understood
-        as a sub-culture for a community, a kind of behavior which we like to do just to be different, distinguishing
-        ourselves from our fellow humans; do we? absolutely not. Although, justifying this point needs a lot of work to
-        be done before.
-        On the other hand, suppose we are right about the lightweight markups, why, then, we have not succeeded in that
-        goal and still lightweight markups is not popular? that would be another question which must be meet after the
-        first one.</p>
-    <h2>The Road-map</h2>
-    <p>I would divide the discussion into two main section, inn which <strong><em>"Love and Squalor"</em></strong>
-        borrowed from the name of a short story of <em>J. D. Salinjer</em>, <em>"with Love and Squalor"</em>:</p>
-    <ol>
-        <li><strong>the merit and love</strong> of lightweight markup languages;</li>
-        <li>the <strong>demerit and squalor</strong> of lightweight markups.</li>
-    </ol>
-    <p>in the first section we look into markups, in particular, lightweight ones; in doing that we take the merit of
-        them into account. The reason of repeating <strong><em>"lightweight"</em></strong> again and again is that
-        comparing other markups such as <code>HTML</code>, <code>LaTex</code>, <code>odt</code>
-        (<strong>OpenDocument</strong>), with other formats needs different attitude which does not apply to
-        lightweights necessarily. in a markup language like <code>HTML</code> or <code>LaTex</code> there are different
-        issues. thus, it is a wise act to stick to lightweights. in this section we scrutinize the lightweight markups
-        and comparing them with <em>WYSIWYG_s, such as <code>.docx</code> (_MS Word</em> format). note it worthy that in
-        this comparison there is a point: lightweight markups like Markdown, essentially are document formats, and
-        <code>.docx</code>, as well; if we compare MS Word with Markdown it is not a good comparison as the former is an
-        application and the latter is a document format. but this is just a kind of figure of speech, since a
-        well-shaped <code>.docx</code> could be generated only by MS Word. Although other applications, like
-        <strong>LibreOffice</strong>, could produce <code>.docx</code> files but their production behave in a strange
-        way.
-        Regarding second section, we will take a look into the dark part of lightweight markups, i.e. what deprive them
-        from being popular. perhaps this second part is more important; as many people do not care about reason but they
-        seek performance, simplicity, and user-friendliness. you can lecture a group about avoiding one certain thing
-        and get their approval, but they do not abandon it unless there would be another <em>alternative</em> option.
-    </p>
+    <header>
 
+    </header>
+    <nav class="crumbs">
+        <a href="/index.html" class="menu_item">Home</a>
+        <a href="/pages/markups/Prolegomenon.html" class="menu_item">Markups</a>
+        <a href="#" class="menu_item"> </a>
+        <a href="#" class="menu_item">About</a>
+    </nav>
+    <main>
+        <h1>Prolegomenon to Merits and Squalor of Lightweight Markup Languages</h1>
+        <p>Any writing system, far from the media carry it, needs a system for formatting; Even in antiquity and middle
+            ages
+            copiers and writers used methods for formatting the written text; Therefore, in codices we can see using red
+            ink, underlining, using bigger or smaller pens and a few symbols. In modern time, after IT explosion we
+            tried a
+            couple of systems of markup languages to formatting texts. For this goal modern human invent a lot of
+            markups
+            with their rules, tools and file extensions. Among this artifacts two umbrella concepts are important:
+            <strong>Markup languages</strong>, and <strong>word processors</strong>. No need to mention that these
+            concepts
+            could be seen as two sides of a coin, since word processors rely on markup systems. Thus, word processors
+            are
+            dispensable, in the way that, theoretically speaking, only after choosing a markup language one could choose
+            a
+            word processor; although, in reality sometimes the word processor impose its own markup.
+            I can guess some reader might find discussing <em>markup languages</em> in details unnecessary and
+            <em>pedantic</em>; because it may seems a shallow and skin-deep, but it is not. Sometimes the word processor
+            or
+            the markup language interfere with writer's <strong>thinking</strong>, a fragile human phenomenon, and cause
+            interruptions in the process. Thinking, at its core, is fragile, liquid and fugitive; one small event
+            demolish
+            our thoughts, in such a way that the thinker agent would not be able to retrieve it. Does not it important?
+            Additionally, there is no account for have a lot of formatting options whose role are dispensable usually.
+            However, I should be more precise in these points, hence let me define a handful terms.
+            In the meantime, giving easy-to-remember, verbose definition would not be a bad idea as sometimes nonsense
+            explanations are flying over the web. A few month ago I saw a post for <em>"why HTML is not a programming
+                language?"</em> with six reasons to prove it! when <code>HTML</code> had been a <em>programming
+                language</em>? it has never been. Because always it was a markup language which the acronym comes from
+            <strong>HyperText Markup Language</strong> in which "markup" stated, while people may forget.
+        </p>
+        <h2>Markup Languages, Lightweight Markups and WYSIWYG</h2>
+        <p>Defining <strong>Markup</strong>, <strong>Lightweight Markup</strong> and <strong>WYSIWYG</strong> (What You
+            See
+            Is What You Get) make the question in hand clear enough to proceed. as the audience of this words is public
+            opinion, I will avoid academic jargon, committing to more understandable style. Thus my favorite definition
+            of
+            these terms are these:</p>
+        <ol>
+            <li><strong>Markup Language</strong>: a markup language is a system of rules (perhaps codes and tags) that
+                shape
+                the layout of the document, format the texts and words, and make it more readable by human agents. These
+                goals fulfills mostly by wrapping text inside the width of the screen, differentiate parts of texts by
+                different font typeface, outstanding titles and their levels by bigger letter and boldness, put
+                emphasize on
+                words and phrases by <strong>boldness</strong>, <em>italicizing</em>, underlining and different colors.
+                Markup languages are used mostly in opposition to raw text document formats, or structured-data format
+                languages, etc. A raw text, like a piece of document in <code>.txt</code> file is not a markup, as all
+                parts
+                are in one size, no boldness, no italicization and no wrapping; therefore, if you open the file in a
+                text
+                editor a line with 300 words remain in one single line, so that you have to use horizontal scroll bar to
+                see
+                the left. Or in structured-data format documents reading the data, even when they are just regular
+                expressions, is not easy.</li>
+            <li><strong>Lightweight Markup Languages</strong>: a lightweight markup language is a markup language with
+                simplest, unobtrusive, the least rules and tags as much as possible, i.e. the simplest and smallest
+                number
+                of rules and tags that are enough for a regular text to be readable with ease by humans. As human
+                expressions carry meaning in different ways, a markup language have to give possibilities to all kinds;
+                note
+                it worthy that <strong>emphasis</strong> is <em>meaningful</em> in statements and plays a role. Hence,
+                markups have to include at least one option for emphasizing. In addition, in case of any
+                <em>distraction</em>, a markup language must offer rules and possibilities to help the readers focus on
+                the
+                text and help them to find the line or word they are looking for. A markup language that provides these
+                possibilities, with a few others, is lightweight markup language. Lightweight markups used in contrast
+                to
+                common markups, i.e. there is not counter-parts like "heavyweight". Common markups which are not
+                lightweight
+                are for more technical purposes like scientific papers which need charts, different direction writings,
+                complicated table, etc; When a certain document needs more complicated formats, objects and styles a
+                lightweight markup would not be helpful. Thus we always need markup languages like <code>.tex</code>
+                (LaTex), <code>.odt</code> (Open Document), <code>.xml</code> (eXtensible Markup Language),
+                <code>.docx</code> (MS Word), <code>.pages</code> (Mac Pages), etc. to fulfill these tasks.
+            </li>
+            <li><strong>WYSIWYG</strong>: this term, which is acronym for "<em><strong>W</strong>hat
+                    <strong>Y</strong>ou
+                    <strong>G</strong>et <strong>I</strong>S <strong>W</strong>hat <strong>Y</strong>ou
+                    <strong>S</strong>ee</em>" is not a markup per se, but it describes a software that gets users
+                commands
+                in graphical user input instead of gets user orders in terms of written tags (or codes). Putting WYSIWYG
+                next to markup definitions makes the list heterogeneous, and I am aware of that. The reason is a number
+                of
+                markup languages like Microsoft <code>DOCX</code> (or previous <code>DOC</code> version), or Mac
+                <code>PAGES</code> are known with their word processor which produces them in WYSIWYG way; as far as
+                they
+                are closed and propriety formats we could take the processor in place of the format. This issue
+                discussed
+                below more.
+            </li>
+        </ol>
+        <p>Here I did not deal with markup languages such as <code>epub</code>, <code>pdf</code>, <code>djvu</code>,
+            etc.
+            Because the issue for this discussion is the formats that used by writers at first place, while EPUB, PDF,
+            DJVU
+            are not used in the first place, but rather, after the document prepared then it convert to these systems
+            for
+            distribution among readers.</p>
+        <h2>Lightweight Markups Versus WYSIWYGs</h2>
+        <p>As it mentioned above, Markup languages and WYSIWYG word processors are not in the same kind, so that listing
+            them together is not correct technically; one reason stated above: they are known their markup language
+            which
+            are not open source. Therefore, only the same processor could create it. But there is another important
+            reason
+            to comparing lightweight markups with WYSIWYGs: <strong>Lightweight markup languages are ceded and overcome
+                by
+                WYSIWYGs; That is, people prefer markup languages such as <code>docx</code> or <code>odt</code> due to
+                they
+                could be created by a WYSIWYG word processor.</strong> as far as we want to deal with lightweight
+            markups,
+            not doing a kind of Aristotelian classification, such an attitude serve the purpose well.</p>
+        <h2>The Advent of WYSIWYGs</h2>
+        <p>As <strong>WYSIWYG</strong> (What You <strong>See</strong> Is What You Get) word processors conquered the
+            21st
+            century, one might wonder why should we use a lightweight markup language, or any other markup language that
+            whose formatting needs to be write down, instead of using mouse and toolbars; it is a smart question which
+            may
+            guide us to somewhere good. For common people, who are not familiar with many different alternatives to
+            those
+            WYSIWYGs, this question answered simply and naively by expressing phrases like:</p>
+        <blockquote>
+            <p>There is no good in using something like boring lightweight markups when we have MS Word, Google Docs and
+                even in open source community LibreOffice, Abiword and Calligra.</p>
+        </blockquote>
+        <p>I emphasized the word "see" in the phrase, because that word might be the key to understand the situation.
+            Most
+            of the time, people who are not in favor of lightweight markups, find lightweight markups difficult to deal
+            with
+            or learn or just seem weird to them. <code>Markdown</code>, <code>Commonmark</code>, other
+            Markdowns(<code>Github flavored</code>, <code>Extra</code>, <code>R</code>, etc), <code>Textile</code>,
+            <code>Restructuredtext</code>, <code>Gemtext</code>, <code>RDoc</code>, <code>Asciidoc</code>, a couple of
+            other
+            formats, and most recently <code>Jdot</code> are in a line when it comes to this specific question. When we,
+            people who prefer lightweight markups over, let say, MS Word format, <code>.docx</code>, it might be
+            understood
+            as a sub-culture for a community, a kind of behavior which we like to do just to be different,
+            distinguishing
+            ourselves from our fellow humans; do we? absolutely not. Although, justifying this point needs a lot of work
+            to
+            be done before.
+            On the other hand, suppose we are right about the lightweight markups, why, then, we have not succeeded in
+            that
+            goal and still lightweight markups is not popular? that would be another question which must be meet after
+            the
+            first one.
+        </p>
+        <h2>The Road-map</h2>
+        <p>I would divide the discussion into two main section, inn which <strong><em>"Love and Squalor"</em></strong>
+            borrowed from the name of a short story of <em>J. D. Salinjer</em>, <em>"with Love and Squalor"</em>:</p>
+        <ol>
+            <li><strong>the merit and love</strong> of lightweight markup languages;</li>
+            <li>the <strong>demerit and squalor</strong> of lightweight markups.</li>
+        </ol>
+        <p>in the first section we look into markups, in particular, lightweight ones; in doing that we take the merit
+            of
+            them into account. The reason of repeating <strong><em>"lightweight"</em></strong> again and again is that
+            comparing other markups such as <code>HTML</code>, <code>LaTex</code>, <code>odt</code>
+            (<strong>OpenDocument</strong>), with other formats needs different attitude which does not apply to
+            lightweights necessarily. in a markup language like <code>HTML</code> or <code>LaTex</code> there are
+            different
+            issues. thus, it is a wise act to stick to lightweights. in this section we scrutinize the lightweight
+            markups
+            and comparing them with <em>WYSIWYG_s, such as <code>.docx</code> (_MS Word</em> format). note it worthy
+            that in
+            this comparison there is a point: lightweight markups like Markdown, essentially are document formats, and
+            <code>.docx</code>, as well; if we compare MS Word with Markdown it is not a good comparison as the former
+            is an
+            application and the latter is a document format. but this is just a kind of figure of speech, since a
+            well-shaped <code>.docx</code> could be generated only by MS Word. Although other applications, like
+            <strong>LibreOffice</strong>, could produce <code>.docx</code> files but their production behave in a
+            strange
+            way.
+            Regarding second section, we will take a look into the dark part of lightweight markups, i.e. what deprive
+            them
+            from being popular. perhaps this second part is more important; as many people do not care about reason but
+            they
+            seek performance, simplicity, and user-friendliness. you can lecture a group about avoiding one certain
+            thing
+            and get their approval, but they do not abandon it unless there would be another <em>alternative</em>
+            option.
+        </p>
+    </main>
+    <footer>
+        <div> <a rel="copyright" href="https://github.com/aryayounesi"> &copy; 2022 Arya Younesi</a></div><br />
+        <span>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work
+            is
+            licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                Attribution
+                4.0 International License</a>.
+        </span>
+    </footer>
 </body>
 
 </html>
