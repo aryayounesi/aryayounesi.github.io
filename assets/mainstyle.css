@@ -19,6 +19,9 @@ header {
   border-radius: 15px;
   border: 1px solid #f2f2f2;
 }
+#sub_title {
+    text-align: center;
+}
 nav {
   display: block;
   margin: 15px 5px;
