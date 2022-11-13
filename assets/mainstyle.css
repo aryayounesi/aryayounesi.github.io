@@ -92,6 +92,13 @@ a {
   text-decoration: none;
   color: black;
 }
+blockquote {
+    font-family: "RedHatText";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  text-align: left;
+}
 .menu_item {
   border-radius: 5px;
   margin: 10px;
