@@ -21,3 +21,7 @@ the way this days people deal with these topics could be describe as *inappropri
 ## The Name
 
 I borrowed the name from Latin which could be a little perplexing, but let us understand in a way that we understand the **Corpus Aristotelicum** or **Corpus Galenicum** or **Corpus Hippocraticum**, all in meaning of ***the whole ordered writings***. in Latin, *corpus* means *body*, *a set which make the body of something*; thus, mentioned terms means the *body* of those philosophers' works. furthermore, *code*, or *codex*, basically means *tree trunk* or a certain kind of it, which they wax leafs made out of them to be used for writing. enough for etymology. we obtained codes from this meaning, any set of letters with a correct syntax and semantic on something, no matter it is a even stone, leaf, papyrus, parchment, modern paper, on a storage or screen.
+
+## Files
+
+You can read writings on the [page](https://aryayounesi.githuab.io/) in HTML format, or just read them in markdown format which are in [MDfiles](/mdfiles/) folder.
