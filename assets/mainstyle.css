@@ -257,3 +257,11 @@ code {
   padding: 7px;
   cursor: text;
 }
+.pagenav {
+  width: auto;
+  display: block;
+  font-weight: bold;
+  font-size: 1.125em;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
