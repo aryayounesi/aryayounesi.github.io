@@ -24,4 +24,4 @@ I borrowed the name from Latin which could be a little perplexing, but let us un
 
 ## Files
 
-You can read writings on the [page](https://aryayounesi.githuab.io/) in HTML format, or just read them in markdown format which are in [MDfiles](/mdfiles/) folder.
+You can read writings on the [page](https://aryayounesi.githuab.io/) in HTML format, or just read them in markdown format which are in [MDfiles](/MDfiles/) folder.
