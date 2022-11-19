@@ -1,131 +1,259 @@
-@import url("/redHatFonts/fonts.css");
-
+@import url("/assets/fonts/CMUTypewriter/cmun-typewriter.css");
+@import url("assets/fonts/RedHatMono/redhatmono.css");
 body {
-  font-size: 16px;
-  margin: 3%;
-  padding: 2%;
+  max-width: 100%;
+  margin: 1%;
+  padding: 1%;
+  font-size: 17px;
+  font-family: 'Computer Modern Typewriter';
   background-color: #fefefe;
-  color: black;
-  border-radius: 15px;
-  border: 1px solid #ccc;
-  line-height: 2em;
-  
+  cursor: default;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
 }
-
 header {
-  text-align: center;
-  margin: 15px 5px;
+  margin: 5px;
   padding: 5px;
-  
-}
-#sub_title {
-    text-align: center;
+  background-color: #fdfdfd;
+  border-radius: 10px;
 }
 nav {
-  display: block;
-  margin: 15px 5px;
+  width: auto;
+  margin: 20px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  background-color: #fbfbfb;
+  border-radius: 3px;
+}
+#homebtn {
+  text-decoration: none;
+  background-color: #b4b4b4;
+  color: #000;
   padding: 10px;
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
-  align-items:center;
+  font-family: 'Computer Modern Typewriter';
+  font-weight: normal;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+menu:hover #homebtn {
+  background-color: #a0a0a0;
+}
+menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #d2d2d2;
+  color: #000;
+  padding: 10px;
+  font-family: 'Computer Modern Typewriter';
+  font-weight: normal;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ebebeb;
+ width: 400px;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdownlink {
+  font-family: 'Computer Modern Typewriter';
+  font-weight: normal;
+  font-size: 0.8em;
+  width: auto;
+}
+.dropdown-content .dropdownlink {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
   
+}
+
+.dropdown-content .dropdownlink:hover {
+  background-color: #f1f1f1;
 
 }
-.menu_item {
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    background-color: whitesmoke;
-  }
-h1 {
-  font-family: "RedHatDisplay";
-  font-weight: 900;
-  font-style: normal;
-  font-size: 2em;
-  margin: 15px 10px;
-  padding: 5px;
-  text-align: center;
+
+menu:hover .dropdown-content {
+  display: block;
+  border-radius: 5px;
 }
-h2 {
-  font-family: "RedHatDisplay";
-  font-weight: 800;
+
+menu:hover .dropbtn {
+  background-color: #bebebe;
+}
+
+main {
+  width: 75%;
+  float: left;
+}
+aside {
+  margin: 15px 5px;
+  padding: 5px;
+  width: 22%;
+  height: strech;
+  float: left;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+.lsidebar_parent {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+}
+.lsidebar_child {
+  list-style-type: none;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+.item_sidebar {
+  font-size: 0.8em;
+}
+.side_nav_link {
+  line-height: 1.125em;
+  text-decoration: overline underline;
+  text-decoration-color: #ccc;
+}
+footer {
+  width: 95%;
+  height: auto;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #e1dedb;
+  display: inline-block;
+}
+
+#footsocial {
+  width: 35%;
+}
+#ccby {
+  width: 30%;
+  display: block;
+  float: right;
+  text-align: center;
+  font-family: "RedHatMono";
+  font-weight: 300;
   font-style: normal;
-  font-size: 1.75em;
-  margin: 10px 5px;
+  font-display: fallback;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.footerlink {
+  line-height: 1.5em;
+}
+.footerlink:hover {
+  cursor: pointer;
+}
+h1 {
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h2 {
+  margin: 25px 10px 5px 10px;
   padding: 5px;
   text-align: left;
+  font-size: 1.25em;
+  font-weight: bold;
+  font-style: normal;
 }
 h3 {
-  font-family: "RedHatDisplay";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.5em;
-  margin: 10px 5px;
+  margin: 20px 10px 5px 10px;
   padding: 5px;
-  text-align: left;
+  font-size: 1.125em;
+  font-weight: bold;
+  font-style: normal;
 }
 h4 {
-  font-family: "RedHatDisplay";
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.25em;
   margin: 5px;
   padding: 5px;
-  text-align: left;
+
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
 }
 h5 {
-  font-family: "RedHatDisplay";
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.125em;
   margin: 5px;
   padding: 5px;
-  text-align: left;
+
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
 }
 h6 {
-  font-family: "RedHatDisplay";
-  font-weight: 300;
-  font-style: normal;
+  margin: 3px;
+  padding: 3px;
+  text-align: center;
+
   font-size: 1em;
-  margin: 5px;
-  padding: 5px;
-  text-align: left;
+  font-weight: bold;
+  font-style: normal;
 }
 p {
-  font-family: "RedHatText";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1em;
+  margin: 5px;
+  padding: 5px;
   text-align: justify;
-  
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.25em;
 }
 a {
-  font-family: "RedHatMono";
-  font-weight: 500;
+  margin: 5px;
+  padding: 5px;
   font-size: 1em;
-  font-style: normal;
-  text-align: left;
-  text-decoration: none;
-  color: black;
+  text-decoration:underline;
+  color: #000;
 }
-blockquote > p {
-  font-family: "RedHatText";
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1em;
-  text-align: left;
+a:hover {
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
 }
 
-footer {
-    margin: 15px 5px;
-    padding: 10px;
-  text-align: center;
-  align-items: center;
-  background-color: #dcdcdc;
-  border-radius: 15px;
+ol {
+  margin: 5px 25px;
+  padding: 10px 15px;
+  list-style: none;
+}
+ul {
+  margin: 5px 25px;
+  padding: 10px 15px;
+  list-style-type: "-";
+  line-height: 1.25em;
+}
+li {
+  margin: 5px;
+  padding: 5px;
+  text-align: justify;
+  font-weight: normal;
+  font-style: normal;
 }
 code {
   font-family: "RedHatMono";
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
+  font-display: fallback;
+  font-size: 0.8em;
+  background-color: #f0f0f0;
+  border: #e6e6e6;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: text;
 }
