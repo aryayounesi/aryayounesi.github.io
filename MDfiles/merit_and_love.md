@@ -41,15 +41,27 @@ _"In my childhood, before a dog attacked me, I had thought dogs are not dangerou
 this sentence is one sentence and all parts are related to others authentically; if we try to use pictorial units for convey it, which could not be possible totally, after a few steps a mess of ideograms would be before us. In earlier stages it is easy, just prepare a handful visual signs of baby and adult human and a dog; when it arrives at middle stages a lot of repeated signs appeared. what did happen? nothing, just the core of plainness of graphic revealed. the deception of GUI is like that: makes the first steps easy, but lost its easiness soon. You can see it for yourself: Just try to build a website with a drag-and-drop application like Bootstrap Studio or Google Web Design. In a few seconds the layout and starting codes will be made; also, the skeleton of the website shaped in a few minutes. After this point any change in design cause a real trouble: changing one thing, leads to deshaping the whole architecture; for any small change you have to correct existed elements.
 This point clarify the merit of lightweight markup languages over its competitors.
 
+## Hardware Requirements and Markups
 
+Lightweight markups needs a minimum hardware requirements; they work on any system even old ones or small embedded systems with limited resources; I do think of it as a merit for lightweight markups and all kinds of lightweight software. Having said such a statement for a title like this, might trigger minds to wonder why hardware requirements would an issue at all? the answer lay in some grounds.
+
+### Ecosystem Sustainability
+
+First, **environment crisis implications** which play a pivotal role in ecosystem sustainability; For a markup like `docx`, one should upgrade the hardware every two three years, otherwise she/he face a slow and buggy system. It is obvious for any small hardware we use, sometimes waste, a lot of unique natural resources usually non-renewable; The old hardware, not only should be throw away, but also they are a kind of pollution in nature. Does it meaningless if we seek an efficient, alternative to decrease the rate of wasting natural resources and produce less pollution for the ecosystem?
+
+### The Case of Under Developing Countries and Social Lower Class
+
+Technological electronic hardwares are expensive and they are not very accessible for people from lower class, even for middle classes, and most of citizens of under developing countries; that means upgrading hardware would not be an easy decision. We are not in middle ages andd we do not hold beliefs like the family blood play a role; Hence depriving a significant portion of individuals from technology means that we waste a lot of smart brains, just because they are not with good income. In addition, it means that many children and young people lost fair opportunity due to their family income.
+
+Back to the main subject, note it worthy that I am not saying that just a heavy markup ends up in hardware upgrade, but any common sense understand that the idea of _lightweightness_ once encouraged somewhere it would spread all over the realm.
 
 ---
 
-### references:
+### references
 
 1. Manuel Castells (2010)The Information Age vol. I: Economy, Society, and Culture; The Rise of the Network Society, Blackwell Publishing Ltd; ISBN: 978-1-4051-9686-4. first edition and second one published respectively in 1996 and 2000.
 2. Arendt, Hannah (1978) The Life Of the Mind, USA: Harcourt inc. p. 101
 3. Ibid
 4. Op. Cit. p. 101-102
 5. DeFrancis, John  (1984) "The Ideographic Myth", in: The Chinese Language: Fact and Fantasy by ,University of Hawai`i Press. here is online [link](http://pinyin.info/readings/texts/ideographic_myth.html)
-6. Unger, J. Marshall (1990) "The Very Idea; The Notion of Ideogram in China and Japan", Monumenta Nipponica; Vol. 45, No. 4 (Winter, 1990), pp. 391-411 (21 pages); https://doi.org/10.2307/2385377. Unger has other writings on the issue but this one is enough for our purpose.
+6. Unger, J. Marshall (1990) "The Very Idea; The Notion of Ideogram in China and Japan", Monumenta Nipponica; Vol. 45, No. 4 (Winter, 1990), pp. 391-411 (21 pages); [link](https://doi.org/10.2307/2385377). Unger has other writings on the issue but this one is enough for our purpose.
