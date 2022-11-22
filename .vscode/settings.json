@@ -1,4 +1,8 @@
 {
     "editor.tabSize": 2,
-    "prettier.bracketSameLine": true
+    "prettier.bracketSameLine": true,
+    "cSpell.words": [
+        "djot",
+        "Pythonists"
+    ]
 }
