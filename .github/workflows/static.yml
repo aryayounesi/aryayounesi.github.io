@@ -1,42 +1,19 @@
 - name: Deploy GitHub Pages site
   uses: actions/deploy-pages@v1.2.3
-
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
-
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
-jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+  with:
+    # Should this action only emit build telemetry instead of deploying the build artifact?
+    emit_telemetry: # optional, default is false
+    # The status of the previous build.
+    conclusion: # optional
+    # GitHub token
+    token: # default is ${{ github.token }}
+    # Time in milliseconds after which to timeout and cancel the deployment (default: 10 minutes)
+    timeout: # optional, default is 600000
+    # Maximum number of status report errors before cancelling a deployment (default: 10)
+    error_count: # optional, default is 10
+    # Time in milliseconds between two deployment status report (default: 5 seconds)
+    reporting_interval: # optional, default is 5000
+    # Name of the artifact to deploy
+    artifact_name: # optional, default is github-pages
+    # Is this attempting to deploy a pull request as a GitHub Pages preview site? (NOTE: This feature is only in alpha currently and is not available to the public!)
+    preview: # optional, default is false
